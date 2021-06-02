@@ -31,7 +31,7 @@ public static void numberGuessergame() {
         	guess = scanner.nextInt();
         }
         if(guess>low && guess < max) {
-        	System.out.println("the random number is " + randomNumber + " which is with in a range of 10 of the number");
+        	System.out.println("the random number is " + randomNumber + " which is with in a range of 10 of your guess "+guess);
         	break;
         }
         // If the number is guessed
