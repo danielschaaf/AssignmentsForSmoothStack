@@ -1,7 +1,7 @@
 package com.ss.assignment9;
 
 public class Singleton {
-	private volatile static Singleton sing = null;
+	 private volatile static Singleton sing = null;
 	
 	private Singleton(){}
 	
